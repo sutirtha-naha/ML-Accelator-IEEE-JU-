@@ -1,0 +1,241 @@
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: white;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  color:white;
+  font-weight: bold;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  color: white;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url("../images/istockphoto-1283240410-170667a.jpeg");
+  background-size: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+#title .container-fluid {
+  padding: 15% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  background-image: url("../images/istockphoto-966248982-612x612.jpeg");
+  background-size: 100%;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+  color:yellow;
+}
+.feature-p {
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  color:black;
+  /*background-color:black;*/
+  /*filter:opacity(30%);*/
+}
+
+.feature-box {
+  padding: 4.5%;
+  filter:opacity(80%);
+}
+
+.icon {
+  color: yellow;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.hoverwrap {
+  position: relative; /* required for (c2) */
+  max-width: 500px;   /* optional */
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  position: relative;
+  background-image: url("../images/ML.jpeg");
+  background-size: 100%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+
+  /*border-radius: 100%;
+  margin: 20px;*/
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  background-image: url("../images/prize.jpeg");
+  background-size: 100%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  filter:opacity(90%);
+}
+/*FAQ*/
+#faq {
+  position: relative;
+  background-image: url("../images/qn.jpeg");
+  background-size: 100%;
+  padding: 70px;
+}
+.faq-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Contact*/
+.contact-section {
+  background-color: Blue;
+  color: #fff;
+}
+#cont {
+  position: relative;
+  background-image: url("../images/contact.webp");
+  background-size: 100%;
+  color:black;
+}
+.cont-title {
+  font-size: 2.5rem;
+  color:yellow;
+}
+.cont-p {
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  color:white;
+  background-color:black;
+  filter:opacity(60%);
+}
+
+.cont-box {
+  padding: 4.5%;
+}
+.cont-box2 {
+  padding: 4.5%;
+  filter:opacity(80%);
+}
+
+.icon {
+  color: yellow;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.hoverwrap {
+  position: relative; /* required for (c2) */
+  max-width: 500px;   /* optional */
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
